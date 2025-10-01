@@ -1,0 +1,312 @@
+SCTP-- Skills Career Transition Program
+Chapte 1:
+=========
+It Industry-- computer, software and telecommunication industry
+Components of IT --Hardware and  software
+S/w development landscape-
+	Programming language
+	Devlopment methodology--agile, SDLC
+	Frameworks
+	Containers and Orchestration 
+	Cloud computing 
+	Mob Development
+
+Job roles
+Basic programming languages
+
+What is program
+IPO cycle
+Low level programming --M/c , assembly
+HLL- c, c++,Java,Python 
+
+Procedural Language
+
+Think of it as step-by-step instructions (like a recipe).
+
+You tell the computer how to do something in a sequence.
+
+Example: C, Pascal, BASIC, Python (can also be procedural)
+
+👉 Example (making tea):
+
+Boil water
+
+Add tea leaves
+
+Add milk
+
+Add sugar
+
+Serve tea
+
+You write code the same way — one step after another.
+
+Functional Language
+
+Think of it as solving problems with math-like functions (focus on what you want, not all the steps).
+
+No changing values step by step, instead you combine functions to get the result.
+
+Example: Haskell, Lisp, Erlang, Scala, parts of JavaScript and Python
+
+👉 Example (making tea in functional style):
+
+Define a function makeTea = boilWater + addTeaLeaves + addMilk + addSugar
+
+You don’t care about the step order much — you just describe the transformations.
+
+SDLC
+=====
+Real-Time Example: Building a House 🏠
+
+Think of software like building a house.
+
+1. Requirement Gathering (What do you need?)
+
+Software: Ask client “What features do you want?”
+
+House: Family decides “We need 3 bedrooms, 1 kitchen, 2 bathrooms.”
+
+2. Planning (How to do it?)
+
+Software: Plan budget, timeline, technology.
+
+House: Decide cost, materials, workers, timeline.
+
+3. Design (Blueprint stage)
+
+Software: Make a design (UI screens, database, architecture).
+
+House: Draw blueprint, design rooms, wiring, plumbing.
+
+4. Development (Actual building)
+
+Software: Programmers write code.
+
+House: Workers build walls, roof, doors.
+
+5. Testing (Check everything works)
+
+Software: Test for bugs, errors, performance.
+
+House: Check plumbing, electricity, locks, finishing.
+
+6. Deployment (Hand over to user)
+
+Software: Release the software to customer.
+
+House: Give the keys to the family to move in.
+
+7. Maintenance (Keep it running)
+
+Software: Fix bugs, updates, add new features.
+
+House: Repair leaks, repaint walls, add furniture.
+
+Various SDLC models
+====================
+
+Chapter 2:
+==========
+
+Algorithm and Flowcharts
+Algorithm:An algorithm is a step-by-step procedure or a set of rules for solving a specific problem or completing a specific task. 
+Step-by-Step Algorithm (in plain language)
+1.	Start.
+2.	Boil some water.
+3.	Place a tea bag in a cup.
+4.	Pour the boiling water into the cup.
+5.	Let the tea steep for 3-5 minutes.
+6.	Remove the tea bag.
+7.	Add sugar or milk if desired.
+8.	Stir the tea.
+9.	Your tea is ready to drink.
+10.	End.
+
+
+Flowchart : Various symbols
+Basic Steps to Create an Algorithm using a Flowchart:
+
+Step 1 - Start: Begin with the start symbol, which is an oval shape.
+Step 2 - Input/Processing: Use rectangles to represent processing steps. 
+              Write the specific action or operation inside the rectangle.
+Step 3 - Decision: If the algorithm involves a decision point, use a diamond 
+              shape. Write the condition inside the diamond.
+Step 4 - Branching: Use arrows to indicate the flow based on the decision. 
+              Typically, one arrow represents "yes”, and another represents "no."
+Step 5 - Output: If there is output, use a parallelogram to represent it.
+Step 6 - End: End the flowchart with the end symbol, which is also an oval 
+              shape.
+Activity 2.3: Algorithm to calculate bank interest
+
+Let us imagine a scenario where a customer, Sarah, has decided to deposit some money into a bank account. She wants to calculate the interest she will earn over a certain period. Sarah approaches the bank and provides the necessary information to the bank representative, John. Design an algorithm and flowchart for calculating the interest on Sarah's bank deposits.
+
+ 
+Solution to activity 2.3: Algorithm to calculate bank interest
+
+Algorithm - 
+Step 1: Read the amount.
+Step 2: Read the years.
+Step 3: Read the interest rate.
+Step 4: Calculate the interest with the formula "Interest=Amount*Years*Rate/100.
+Step 5: Print the interest for the amount.
+
+Flowchart –
+
+ 
+
+
+
+
+Chapter 3
+=========
+Version control
+Git and GitHub
+https://git-scm.com/downloads
+git init
+git add .
+git commit -m "First commit"
+git status
+git 
+
+Chapter 4:
+==========
+HTML
+CSS
+There are three ways of inserting a style sheet:
+1.	External CSS - With an external style sheet, you can change the look of an entire website by changing just one file. Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+2.	Internal CSS - An internal style sheet may be used if one single HTML page has a unique style. The internal style is defined inside the <style> element, inside the head section.
+3.	Inline CSS - An inline style may be used to apply a unique style for a single element. To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+JavaScript
+
+
+Chapter 5:
+==========
+DataBase
+in a hotel. It is an example of a dynamic website that uses a database. 
+Key Concepts in Database:
+•	Data: Data refers to facts, figures, and information that can be processed, stored, and retrieved.
+
+•	Database: A database is an organized collection of data, typically stored and accessed electronically from a computer system.
+
+•	DBMS (Database Management System): A DBMS is software that facilitates the creation, organization, and manipulation of databases. It provides an interface for interacting with the database.
+
+•	Tables: Data in a database is organized into tables. Each table consists of rows and columns, where each row represents a record, and each column represents a field or attribute.
+
+•	SQL (Structured Query Language): SQL is a domain-specific language used for managing and manipulating relational databases. It allows users to query, insert, update, and delete data.
+Types of Databases:
+
+CHapter 6:
+=========
+debugging and touble shooting 
+•	Relational Databases: Organize data into tables with predefined relationships between them. Examples include MySQL, PostgreSQL, and Oracle Database.
+
+•	NoSQL Databases: Designed to handle a variety of data models and are often used for large-scale, distributed systems. Examples include MongoDB, Cassandra, and Redis.
+
+•	Object-Oriented Databases: Store data in the form of objects, allowing for more complex data modelling. These are less common than relational databases.
+
+•	Graph Databases: Designed to store and query data in the form of graphs, with nodes and edges representing relationships. Examples include Neo4j and Amazon Neptune.
+Commonly used databases in the industry
+
+Selecting the right database is crucial for the success and efficiency of any application. The choice depends on various factors such as the nature of the data, scalability requirements, and specific use cases. Here, we highlight the top 10 databases that are widely used in the industry today.
+
+1.	MySQL
+•	Open-source relational database management system (RDBMS)
+•	Popular for web applications
+•	Uses Structured Query Language (SQL)
+
+2.	PostgreSQL
+•	Open-source RDBMS known for its advanced features and extensibility
+•	Supports complex queries and large datasets
+•	Highly compliant with SQL standards
+
+3.	SQLite
+•	Lightweight, serverless, self-contained RDBMS
+•	Ideal for small to medium-sized applications
+•	Often used in embedded systems and mobile apps
+
+4.	Microsoft SQL Server
+•	RDBMS developed by Microsoft
+•	Comprehensive and enterprise-grade features
+•	Integrated with Microsoft’s ecosystem
+
+5.	Oracle Database
+•	RDBMS developed by Oracle Corporation
+•	Known for its robustness, scalability, and advanced security features
+•	Widely used in large enterprises
+
+6.	MongoDB
+•	NoSQL database known for its flexibility and scalability
+•	Uses a document-oriented data model
+•	Ideal for handling unstructured or semi-structured data
+
+7.	Redis
+•	In-memory data structure store used as a database, cache, and message broker
+•	Known for its high performance and speed
+•	Supports various data structures such as strings, lists, and sets
+
+8.	MariaDB
+•	Open-source RDBMS forked from MySQL
+•	Offers similar functionality to MySQL with additional features
+•	Compatible with MySQL
+
+9.	Cassandra
+•	NoSQL database known for its scalability and high availability
+•	Designed to handle large amounts of data across many commodities servers
+•	Popular in applications requiring real-time big data
+
+10.	Firebase Realtime Database
+•	NoSQL cloud database provided by Google
+•	Designed for real-time data synchronization
+•	Ideal for mobile and web applications
+What Can SQL do?
+SQL provides a powerful set of operations to handle data within a relational database. Here are some of the primary capabilities of SQL:
+
+1. Create Databases and Tables
+•	SQL can create databases to store organized information and create tables within those databases to hold specific types of data.
+
+2. Insert Data into Tables
+•	SQL can insert new records into database tables.
+
+3. Retrieve Data from Tables
+•	Using the SELECT statement, SQL can query and retrieve data from one or more tables.
+•	SQL can filter, sort, and aggregate data to generate reports and insights.
+
+4. Update Existing Data
+•	SQL can update records in a table by modifying data in existing rows.
+
+5. Delete Data
+•	SQL can delete records from a table.
+
+6. Control Access to the Database
+•	Using Data Control Language (DCL) commands, SQL can grant or revoke access to the database and its objects.
+
+7. Manage Database Structure
+•	SQL can modify the structure of existing tables by adding, removing, or altering columns using ALTER statements.
+
+8. Perform Complex Queries with Joins
+•	SQL can perform joins to combine data from multiple tables based on related columns.
+ 
+9. Aggregate and Analyze Data
+•	SQL provides functions to aggregate data using COUNT, SUM, AVG, MIN, and MAX, allowing data analysis directly within the database.
+10. Handle Transactions
+•	SQL can manage transactions to ensure data integrity using COMMIT, ROLLBACK, and SAVEPOINT commands.
+
+SQL is a versatile and powerful language used to interact with relational databases. It allows users to:
+•	Create databases and tables.
+•	Insert, retrieve, update, and delete data.
+•	Control access to data.
+•	Perform complex queries and data aggregation.
+•	Manage database structure and handle transactions for data integrity.
+
+https://onecompiler.com/mysql/43y657hdg
+
+Benefits of Github
+
+
+
+
+
+
+
